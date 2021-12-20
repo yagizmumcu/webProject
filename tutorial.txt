@@ -1,0 +1,18 @@
+how to run:
+if code edited
+docker-compose up --build 
+if not
+docker-compose up 
+
+Problem:
+
+X person is a new developer for a project. To prepare the development environment, he/she needs to
+configure multiple dependencies and technologies for project. Configuring these projects and dependencies 
+are a problem locally.
+
+Solution:
+
+Our project contains Redis and Node.js (multiple technologies and dependecies). To sustain maintainability of the dependencies, 
+packages and also addition of new technologies on the project in future, Docker helps us to run the application without configuring
+these dependencies and technologies locally for each team member during development.
+
